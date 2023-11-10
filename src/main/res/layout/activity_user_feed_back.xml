@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFeedBack">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/View1"
+        android:text="Enter feed back"
+        android:textSize="23dp"
+        android:textColor="@color/colorDarkRed"
+        android:background="@color/teal_200"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/View1"
+        android:id="@+id/feedBackEdit"
+        android:hint="Enter a feedBack"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorDarkRed"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feedBackEdit"
+        android:id="@+id/feedStarEdit"
+        android:hint="Enter a your stars"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorDarkRed"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feedStarEdit"
+        android:id="@+id/feedNameEdit"
+        android:hint="Enter a user name"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorDarkRed"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feedNameEdit"
+       android:id="@+id/feedBtn"
+        android:text="FeedBack"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feedBtn"
+        android:id="@+id/backBtn"
+        android:text="Back"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

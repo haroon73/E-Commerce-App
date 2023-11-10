@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ima2"
+    tools:context=".Admin">
+
+    <ImageView
+        android:id="@+id/adminLogo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/shop_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminLogo"
+        android:text="Admin Page"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/adminPage"
+        android:layout_marginTop="10sp"/>
+
+    <Button
+        android:id="@+id/adminAddSpiceBtn1"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorDarkRed"
+        android:text="Add Spices"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminPage" />
+
+    <Button
+        android:id="@+id/adminRemoveSpiceBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorDarkRed"
+        android:text="Remove Spices"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminPage" />
+
+    <Button
+        android:id="@+id/adminRemoveUserBtn3"
+        android:layout_width="152dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorDarkRed"
+        android:text="Remove User"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminRemoveSpiceBtn2" />
+
+
+    <Button
+        android:id="@+id/adminAddUserBtn4"
+        android:layout_width="148dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorDarkRed"
+        android:text="Update User"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddSpiceBtn1" />
+
+    <Button
+        android:id="@+id/adminViewUserBtn5"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorDarkRed"
+        android:text="View User"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddUserBtn4" />
+
+    <Button
+        android:id="@+id/adminUpdateSpiceBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorDarkRed"
+        android:text="Update Spices"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminRemoveUserBtn3" />
+
+    <Button
+        android:id="@+id/adminDiscountBtn"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Discount"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminUpdateSpiceBtn1" />
+
+    <Button
+        android:id="@+id/adminFeedtBtn"
+        android:layout_width="139dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="64dp"
+        android:text="FeedBack"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminAddUserBtn4" />
+
+    <Button
+        android:id="@+id/adminCanceltBtn"
+        android:layout_width="139dp"
+        android:layout_height="52dp"
+        android:text="Cancel Order"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminFeedtBtn" />
+
+
+    <Button
+        android:id="@+id/adminViewOrdertBtn"
+        android:layout_width="147dp"
+        android:layout_height="54dp"
+        android:text="View Order"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminDiscountBtn" />
+
+    <Button
+        android:id="@+id/adminBtn5"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorDarkRed"
+        android:text="Logout"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminRemoveUserBtn3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

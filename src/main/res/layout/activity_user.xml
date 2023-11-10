@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".UserActivity">
+
+
+    <ImageView
+        android:id="@+id/userViewImage"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/shop_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/showUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:hint="User name"
+        android:textColorHint="@color/colorDarkRed"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userViewImage" />
+
+    <Button
+        android:id="@+id/serachbtn"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnloginbg"
+        android:text="Search Spice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showUserName" />
+
+    <Button
+        android:id="@+id/addspicebtn"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8sp"
+        android:text="Add spices"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/serachbtn" />
+
+    <Button
+        android:id="@+id/shoppingcartbtn"
+        android:layout_width="178dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8sp"
+        android:text="shopping cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addspicebtn" />
+
+
+    <Button
+        android:id="@+id/cancelspicesbtn"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:text="cancel spices"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedByuSERtBtn" />
+
+    <Button
+        android:id="@+id/paymnetBtn"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:text="Payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingcartbtn" />
+
+    <Button
+        android:id="@+id/feedByuSERtBtn"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:text="Write feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shippingtBtn" />
+
+    <Button
+        android:id="@+id/shippingtBtn"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:text="Shippment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paymnetBtn" />
+
+    <Button
+        android:id="@+id/logoutuserbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancelspicesbtn"
+        app:layout_constraintVertical_bias="0.113" />
+</androidx.constraintlayout.widget.ConstraintLayout>

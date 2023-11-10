@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpiceWorld</string>
+    <string name="spcieworld">SpcieWorld</string>
+    <string name="loging">Loging</string>
+    <string name="account">Account</string>
+    <string name="user_name">User Name</string>
+    <string name="admin">Admin</string>
+    <string name="logout">Logout</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="in_user_landing_page">In user landing page</string>
+    <string name="no_cook_yet">No spice yet, add to cook</string>
+</resources>
